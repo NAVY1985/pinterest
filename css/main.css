@@ -1,0 +1,83 @@
+body {
+      box-sizing: border-box;
+      font-family: sans-serif;
+}
+
+header {
+      background-color: #6D5878;
+}
+
+header > * {
+      display: inline-block;
+      text-align: center;
+}
+
+header > h1 {
+      width: 5%;
+}
+
+header > form {
+      width: 70%;
+}
+
+header > navbar {
+      width: 20%;
+}
+
+div img {
+      border-radius: 5%;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      margin-top: 5%;
+      width: 100%;
+}
+
+nav a {
+      color: #141215;
+      font-family: sans-serif;
+      font-weight: bold;
+      margin: 5%;
+}
+
+form label {
+      font-weight: bold;
+      text-decoration: underline;
+}
+
+form input {
+      width: 30%;
+}
+
+form select {
+      margin-right: 40%;
+      width: 15%;
+}
+
+a:active {
+      color: #BB5189;
+}
+
+a:hover {
+      background: #DBC4D0;
+      cursor: pointer;
+      color: #9A2A64;
+}
+
+.col {
+      float: left;
+      margin: 1%;
+      width: 30%;
+}
+
+.fade {
+      opacity: 0.5;
+}
+
+.fade:hover {
+      opacity: 1;
+}
+
+.titulo {
+      font-weight: bold;
+      margin-left: 10%;
+}
