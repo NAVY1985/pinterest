@@ -20,7 +20,7 @@ header > form {
       width: 70%;
 }
 
-header > navbar {
+header > nav {
       width: 20%;
 }
 
@@ -39,28 +39,44 @@ nav a {
       margin: 5%;
 }
 
-form label {
+/*form label {
       font-weight: bold;
       text-decoration: underline;
-}
+      margin-right: 5%;
+      cursor: pointer;
+}*/
 
 form input {
-      width: 30%;
+      width: 50%;
+    /*  margin-right: 20%;*/
+      height: 30px;
+      cursor: pointer;
 }
 
-form select {
+/*form select {
       margin-right: 40%;
       width: 15%;
-}
+}*/
 
 a:active {
       color: #BB5189;
 }
 
 a:hover {
-      background: #DBC4D0;
+  /*    background: #DBC4D0;
       cursor: pointer;
-      color: #9A2A64;
+      color: #9A2A64;*/
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+      height: 5%;
+      padding: 0% 2%;
+      min-width: 7%;
+      background-color: #EFEFEF;
+      border-radius: 15px;
+      line-height: 30px;
+      color: #4F4F4F;
 }
 
 .col {
@@ -69,15 +85,52 @@ a:hover {
       width: 30%;
 }
 
-.fade {
+/*.fade {
       opacity: 0.5;
 }
 
 .fade:hover {
       opacity: 1;
-}
+}*/
 
 .titulo {
       font-weight: bold;
       margin-left: 10%;
+}
+
+.container {
+      margin-bottom: -4%;
+      margin-top: -2%;
+      width: 100%;
+}
+
+.menu {
+      display: inline-block;
+      background: #C39BD3;
+      margin: 4%;
+      margin-right: 2%;
+      width: 10%;
+      border-radius: 40px;
+}
+
+P {
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: underline;
+
+}
+
+p:hover {
+
+       text-decoration: none;
+       color: #790BA5;
+
+}
+
+
+#grow:hover {
+       -webkit-transform: scale(1.1);
+       -ms-transform: scale(1.1);
+        transform: scale(1.1);
 }
