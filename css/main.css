@@ -28,7 +28,8 @@ div img {
       border-radius: 5%;
       margin-bottom: 5%;
       margin-left: 5%;
-      margin-top: 5%;
+      margin-top: 5%;  
+      position: relative;
       width: 100%;
 }
 
@@ -39,59 +40,51 @@ nav a {
       margin: 5%;
 }
 
-/*form label {
-      font-weight: bold;
-      text-decoration: underline;
-      margin-right: 5%;
+input {
+      border:none;
+      border-radius: 20px;
       cursor: pointer;
-}*/
-
-form input {
-      width: 50%;
-    /*  margin-right: 20%;*/
       height: 30px;
-      cursor: pointer;
+      margin: auto;
+      width: 50%;
 }
 
-/*form select {
-      margin-right: 40%;
-      width: 15%;
-}*/
+P {
+      text-align: center;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: underline;
+
+}
+
+p:hover {
+      text-decoration: none;
+      color: #790BA5;
+}
 
 a:active {
       color: #BB5189;
 }
 
 a:hover {
-  /*    background: #DBC4D0;
-      cursor: pointer;
-      color: #9A2A64;*/
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-      position: relative;
-      height: 5%;
-      padding: 0% 2%;
-      min-width: 7%;
       background-color: #EFEFEF;
       border-radius: 15px;
-      line-height: 30px;
       color: #4F4F4F;
+      cursor: pointer;
+      display: inline-block;
+      height: 5%;
+      line-height: 30px;
+      min-width: 7%;
+      padding: 0% 2%;
+      text-decoration: none;
 }
 
 .col {
       float: left;
       margin: 1%;
+      position: relative;
       width: 30%;
 }
-
-/*.fade {
-      opacity: 0.5;
-}
-
-.fade:hover {
-      opacity: 1;
-}*/
 
 .titulo {
       font-weight: bold;
@@ -105,29 +98,13 @@ a:hover {
 }
 
 .menu {
-      display: inline-block;
       background: #C39BD3;
+      border-radius: 40px;
+      display: inline-block;
       margin: 4%;
       margin-right: 2%;
       width: 10%;
-      border-radius: 40px;
 }
-
-P {
-      text-align: center;
-      font-weight: bold;
-      cursor: pointer;
-      text-decoration: underline;
-
-}
-
-p:hover {
-
-       text-decoration: none;
-       color: #790BA5;
-
-}
-
 
 #grow:hover {
        -webkit-transform: scale(1.1);
